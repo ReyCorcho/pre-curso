@@ -35,14 +35,14 @@ const {
   esVocal,
 } = require('../homework.js');
 
-describe('nuevaString', function() {
-  it('Deberia ser un string', function() {
+describe('nuevaString', function(hola) {
+  it('Deberia ser un string', function(hola) {
     expect(typeof nuevaString).toBe('string');
   });
 });
 
-describe('nuevoNum', function() {
-  it('Deberia ser un numero', function() {
+describe('nuevoNum', function(nuevoNum) {
+  it('Deberia ser un numero', function(nuevoNum) {
     expect(typeof nuevoNum).toBe('number');
   });
 });
@@ -53,8 +53,8 @@ describe('nuevoBool', function() {
   });
 });
 
-describe('nuevaResta', function() {
-  it('Deberia ser un booleano', function() {
+describe('nuevaResta', function(nuevaResta) {
+  it('Deberia ser un booleano', function(nuevaResta) {
     expect(nuevaResta).toBe(true);
   });
 });
